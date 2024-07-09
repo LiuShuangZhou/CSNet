@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This repository is the code implementation of the paper Context-Aggregated and SAM-Guided Network for ViT based Instance Segmentation in Remote Sensing Images, which is based on the [MMDetection](https://github.com/open-mmlab/mmdetection/tree/main) project.
+This repository is the code implementation of the paper [Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images](https://www.mdpi.com/2072-4292/16/13/2472), which is based on the [MMDetection](https://github.com/open-mmlab/mmdetection/tree/main) project.
 
 The current branch has been tested under PyTorch 1.9 and CUDA 11.1, supports Python 3.7+, and is compatible with most CUDA versions.
 
@@ -28,7 +28,6 @@ We recommend using Miniconda for installation. The following command will create
 
 Note: If you have experience with PyTorch and have already installed it, you can skip to the next section. Otherwise, you can follow these steps to prepare.
 
-<details>
 
 **Step 0**: Install [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html).
 
@@ -61,10 +60,6 @@ mim install mmcv==2.0.1
 **Step 4**: Install other dependencies. Please refer to the installation requirements of [SAM](https://github.com/facebookresearch/segment-anything) and [MMDetection](https://github.com/open-mmlab/mmdetection).
 
 
-
-
-</details>
-
 ### Install CSNet
 
 Download or clone the CSNet repository.
@@ -76,8 +71,6 @@ cd CSNet
 ```
 
 ## Dataset Preparation
-
-<details>
 
 ### Basic Instance Segmentation Dataset
 
@@ -109,8 +102,6 @@ Note: In the project folder, we provide a folder named `data`, which contains ex
 ### Other Datasets
 
 If you want to use other datasets, you can refer to [MMDetection documentation](https://mmdetection.readthedocs.io/zh-cn/latest/user_guides/dataset_prepare.html) to prepare the datasets.
-
-</details>
 
 ## Checkpoint Preparation
 You can get the checkpoint of SAM on the [SAM](https://github.com/facebookresearch/segment-anything) project.
@@ -182,6 +173,22 @@ python demo/image_demo.py ${IMAGE_DIR}  configs/csnet/xxx.py --weights ${CHECKPO
 
 This project is developed based on the [MMDetection](https://github.com/open-mmlab/mmdetection/tree/main) project. Thanks to the developers of the MMDetection project.
 
+## Citation
+
+If you use the code or performance benchmarks of this project in your research, please refer to the bibtex below to cite RSPrompter.
+MDPI and ACS Style
+Liu, S.; Wang, F.; You, H.; Jiao, N.; Zhou, G.; Zhang, T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sens. 2024, 16, 2472. https://doi.org/10.3390/rs16132472
+
+AMA Style
+Liu S, Wang F, You H, Jiao N, Zhou G, Zhang T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sensing. 2024; 16(13):2472. https://doi.org/10.3390/rs16132472
+
+Chicago/Turabian Style
+Liu, Shuangzhou, Feng Wang, Hongjian You, Niangang Jiao, Guangyao Zhou, and Tingtao Zhang. 2024. "Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images" Remote Sensing 16, no. 13: 2472. https://doi.org/10.3390/rs16132472
+
+
+## License
+
+This project is licensed under the [Apache 2.0 license](LICENSE).
 
 ## Contact
 
