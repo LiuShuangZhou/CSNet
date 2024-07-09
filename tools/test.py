@@ -14,7 +14,6 @@ from mmdet.evaluation import DumpDetResults
 from mmdet.registry import RUNNERS
 from mmdet.utils import setup_cache_size_limit_of_dynamo
 
-# python tools/test.py configs/train_rs/htc_gtsam_coco.py tools/work_dirs/htc_gtsam_coco/epoch_72.pth
 # TODO: support fuse_conv_bn and format_only
 def parse_args():
     parser = argparse.ArgumentParser(
