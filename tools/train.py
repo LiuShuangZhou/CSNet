@@ -9,9 +9,6 @@ from mmengine.runner import Runner
 
 from mmdet.utils import setup_cache_size_limit_of_dynamo
 
-# python tools/test.py configs/train_rs/htc_gtsam_coco.py tools/work_dirs/htc_gtsam_coco/epoch_72.pth
-# python tools/train.py configs/train_rs/htc_r101_fpn_20e_coco.py
-# P:/code/mmdetection-main/mmdetection-main/configs/train_rs/sc_sam_coco.py
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
     parser.add_argument('config', help='train config file path')
