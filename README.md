@@ -133,11 +133,9 @@ sh ./tools/dist_train.sh configs/csnet/xxx.py ${GPU_NUM}  # xxx.py is the config
 
 ### Other Instance Segmentation Models
 
-<details>
 
 If you want to use other instance segmentation models, you can refer to [MMDetection](https://github.com/open-mmlab/mmdetection/tree/main) to train the models, or you can put their Config files in the `configs` folder of this project, and then train them according to the above methods.
 
-</details>
 
 ## Model Testing
 
@@ -179,15 +177,15 @@ If you use the code or performance benchmarks of this project in your research, 
 
 MDPI and ACS Style
 
-Liu, S.; Wang, F.; You, H.; Jiao, N.; Zhou, G.; Zhang, T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sens. 2024, 16, 2472. https://doi.org/10.3390/rs16132472
+[1] Liu, S.; Wang, F.; You, H.; Jiao, N.; Zhou, G.; Zhang, T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sens. 2024, 16, 2472. https://doi.org/10.3390/rs16132472
 
 AMA Style
 
-Liu S, Wang F, You H, Jiao N, Zhou G, Zhang T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sensing. 2024; 16(13):2472. https://doi.org/10.3390/rs16132472
+[2] Liu S, Wang F, You H, Jiao N, Zhou G, Zhang T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sensing. 2024; 16(13):2472. https://doi.org/10.3390/rs16132472
 
 Chicago/Turabian Style
 
-Liu, Shuangzhou, Feng Wang, Hongjian You, Niangang Jiao, Guangyao Zhou, and Tingtao Zhang. 2024. "Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images" Remote Sensing 16, no. 13: 2472. https://doi.org/10.3390/rs16132472
+[3] Liu, Shuangzhou, Feng Wang, Hongjian You, Niangang Jiao, Guangyao Zhou, and Tingtao Zhang. 2024. "Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images" Remote Sensing 16, no. 13: 2472. https://doi.org/10.3390/rs16132472
 
 
 ## License
