@@ -176,6 +176,7 @@ This project is developed based on the [MMDetection](https://github.com/open-mml
 ## Citation
 
 If you use the code or performance benchmarks of this project in your research, please refer to the bibtex below to cite RSPrompter.
+
 MDPI and ACS Style
 
 Liu, S.; Wang, F.; You, H.; Jiao, N.; Zhou, G.; Zhang, T. Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images. Remote Sens. 2024, 16, 2472. https://doi.org/10.3390/rs16132472
